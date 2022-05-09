@@ -26,4 +26,5 @@
         android:layout_height="1dp"
         android:layout_gravity="bottom"
         android:background="?android:attr/listDivider" />
+
 </FrameLayout>
