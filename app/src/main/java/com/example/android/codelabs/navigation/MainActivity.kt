@@ -92,8 +92,8 @@ class MainActivity : AppCompatActivity() {
         // TODO STEP 9.4 - Use NavigationUI to set up a Navigation View
 //        // In split screen mode, you can drag this view out from the left
 //        // This does NOT modify the actionbar
-//        val sideNavView = findViewById<NavigationView>(R.id.nav_view)
-//        sideNavView?.setupWithNavController(navController)
+        val sideNavView = findViewById<NavigationView>(R.id.nav_view)
+        sideNavView?.setupWithNavController(navController)
         // TODO END STEP 9.4
     }
 
